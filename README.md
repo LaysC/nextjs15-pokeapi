@@ -1,4 +1,4 @@
-cat << 'EOF' > README.md
+
 # ⚡ PokéDex Pro
 
 Pokédex construída com Next.js 15 focada em performance e uma UI simples e bem definida.
