@@ -1,78 +1,45 @@
-# ⚡ PokéDex Pro | Next.js 15
+cat << 'EOF' > README.md
+# ⚡ PokéDex Pro
 
-Uma enciclopédia Pokémon moderna com design **Neo-Brutalista**, construída para oferecer uma experiência rápida, fluida e visualmente impactante.
+Pokédex construída com Next.js 15 focada em performance e uma UI simples e bem definida.
 
-🚀 **[Ver Demo Ao Vivo](https://nextjs15-pokeapi.vercel.app/)**
-
----
-
-## 📸 Preview
-
-![Preview do projeto](./public/preview.png)
-
-> 💡 Dica: você pode substituir por um GIF depois para deixar ainda mais atrativo
+🚀 https://nextjs15-pokeapi.vercel.app/
 
 ---
 
-## ✨ Diferenciais
+## ✨ O que tem aqui
 
-O projeto utiliza uma estética de alto contraste (**Neo-Brutalismo**), com bordas sólidas e tipografia marcante para reimaginar a interface clássica da Pokédex.
-
----
-
-## 🚀 Funcionalidades
-
-- 🔍 **Busca em Tempo Real:** Filtre instantaneamente entre os Pokémon  
-- 🧭 **Rotas Dinâmicas:** Páginas geradas via \`app/[id]\`  
-- 📱 **Design Responsivo:** Mobile, tablet e desktop  
-- 🎨 **Cores Dinâmicas:** Baseadas no tipo de cada Pokémon  
-- ⚡ **Alta Performance:** Server Components do Next.js 15  
+- Busca de Pokémon em tempo real  
+- Rotas dinâmicas (/pokemon/[id])  
+- Interface responsiva  
+- Cores baseadas no tipo do Pokémon  
 
 ---
 
-## 🛠️ Tecnologias
+## 🛠️ Stack
 
-- **Framework:** Next.js 15 (App Router)  
-- **Estilização:** Tailwind CSS  
-- **API:** PokéAPI  
-- **Deploy:** Vercel  
-- **Linguagem:** TypeScript  
+- Next.js 15  
+- Tailwind CSS  
+- TypeScript  
+- PokéAPI  
 
 ---
 
-## 📦 Instalação Local
+## 🚀 Rodando local
 
-Clone o repositório:
-
-\`\`\`bash
 git clone https://github.com/LaysC/nextjs15-pokeapi.git
 cd nextjs15-pokeapi
-\`\`\`
-
-Instale as dependências:
-
-\`\`\`bash
 npm install
-\`\`\`
-
-Inicie o servidor:
-
-\`\`\`bash
 npm run dev
-\`\`\`
+
+Acesse: http://localhost:3000
 
 ---
 
-## 📐 Estrutura do Projeto
+## 📁 Estrutura
 
-\`\`\`bash
 /app
-  ├── page.tsx          # Landing Page
-  ├── pokemon/          # Lista de Pokémons
-  │   ├── page.tsx      # Lógica de busca
-  │   ├── [id]/         # Página dinâmica
-  │   └── _components/  # Componentes reutilizáveis
-\`\`\`
-
----
+  /pokemon
+  /[id]
+  /_components
 
